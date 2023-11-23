@@ -10,3 +10,4 @@ test('Verify "All Books" link is visible', async ({ page }) => {
   const isLinkVisible = await allBooksLink.isVisible();
   expect(isLinkVisible).toBe(true);
 });
+
